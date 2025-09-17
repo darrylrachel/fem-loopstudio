@@ -1,1 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
 @import 'tailwindcss';
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #d8d8d8;
+  --blue-100: #e5eaf1;
+  --blue-500: #f6faff;
+  --border-magenta: magenta;
+  --josefin: 'Josefin Sans', sans-serif;
+  --alata: 'Alata', sans-serif;
+  --josefin-fw: 300;
+  --alata-fw: 400;
+}
+
+html,
+body {
+  font-family: var(--josefin);
+  font-weight: var(--josefin-fw);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border-magenta {
+  border: 1px solid var(--border-magenta);
+}
+
+.container {
+  padding: 62px 160px;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-template-rows: repeat(1fr);
+  gap: 20px;
+  /* background-image: url(./images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+.header {
+  background-color: #1a1a1a;
+}
+
+.header-nav {
+  color: var(--white);
+}
