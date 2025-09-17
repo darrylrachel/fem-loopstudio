@@ -21,28 +21,120 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0;
 }
 
 .border-magenta {
   border: 1px solid var(--border-magenta);
 }
 
-.container {
+/* .container {
   padding: 62px 160px;
   display: grid;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: repeat(1fr);
-  gap: 20px;
-  /* background-image: url(./images/desktop/image-hero.jpg);
+  gap: 120px;
+  height: 100%;
+} */
+
+.header-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; */
-}
-
-.header {
-  background-color: #1a1a1a;
+  background-size: cover;
+  height: 100%;
 }
 
 .header-nav {
   color: var(--white);
+  font-family: var(--alata);
+  font-weight: var(--alata-fw);
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.hero-container {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tagline {
+  font-size: 72px;
+  font-weight: var(--josefin-fw);
+  line-height: 100%;
+  letter-spacing: 0;
+  border: 2px solid var(--white);
+  padding: 40px;
+  width: 650px;
+  height: 280px;
+}
+
+/* END HEADER / HERO CONTAINER */
+
+.body-container {
+  height: 100%;
+}
+
+.blurb-container-row {
+  position: relative;
+}
+
+.blurb-image {
+  width: 730px;
+  height: 100%;
+}
+
+.blurb {
+  width: 634px;
+  height: 320px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  padding: 96px 0px 0 96px;
+}
+
+.blurb-body {
+  font-family: var(--alata);
+  font-weight: var(--alata-fw);
+  line-height: 165%;
+  color: #000;
+  opacity: 50%;
+  padding-right: 50px;
+}
+
+/* END BLURB CONTAINER */
+
+.gallery-container {
+}
+
+.gallery-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 15px 40px;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: var(--white);
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
 }

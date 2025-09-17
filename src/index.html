@@ -16,8 +16,8 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="container-row header grid grid-cols-2">
+    <div class="grid px-40 py-16 header-container">
+      <div class=" header grid grid-cols-2">
         <div class="header-logo">
           <img src="./images/logo.svg" alt="Loopstudio logo" />
         </div>
@@ -31,16 +31,130 @@
           </div>
         </div>
       </div>
-      <div class="container-row border-magenta">Hero</div>
-      <div class="container-row border-magenta">Blrub</div>
-      <div class="container-row border-magenta">Gallery</div>
-      <div class="container-row border-magenta">Footer</div>
+      <div class="mt-28 mb-28  hero-container">
+        <h2 class="tagline uppercase">Immersive experiences that deliver</h2>
+      </div>
     </div>
-    <!-- About Careers Events Products Support Immersive experiences that deliver The
-    leader in interactive VR Founded in 2011, Loopstudios has been producing
-    world-class virtual reality projects for some of the best companies around
-    the globe. Our award-winning creations have transformed businesses through
-    digital experiences that bind to their brand. Our creations See all Deep
+    <div class="body-container px-38 py-16 mt-40 min-h-full">
+      <div class="mb-40 blurb-container-row">
+        <div class="blurb-image">
+          <img src="./images/desktop/image-interactive.jpg" alt="" />
+        </div>
+        <div class="blurb">
+          <p class="text-5xl pr-16 mb-6 text-black blurb-title">
+            The leader in interactive VR
+          </p>
+          <p class="blurb-body">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-header mb-20">
+          <p class="title uppercase text-5xl align-middle">Our Creations</p>
+          <button type="submit" class="button uppercase border-1">
+            See All
+          </button>
+        </div>
+        <div class="gallery-gallery grid grid-rows-2 gap-8">
+          <!-- Gallery rows -->
+          <div class="gallery-row grid grid-cols-4 gap-8">
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-deep-earth.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text">Deep<br />Earth</span></a
+              >
+            </div>
+
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-night-arcade.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text">Night<br />Arcade</span></a
+              >
+            </div>
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-soccer-team.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text"
+                  >Soccer<br />Team VR</span
+                ></a
+              >
+            </div>
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-grid.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text">The<br />Grid</span></a
+              >
+            </div>
+          </div>
+          <div class="gallery-row grid grid-cols-4 gap-8">
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-from-above.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text"
+                  >From Up<br />Above VR</span
+                ></a
+              >
+            </div>
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-pocket-borealis.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text"
+                  >Pocket<br />
+                  Borealis</span
+                ></a
+              >
+            </div>
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-curiosity.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text"
+                  >The<br />Curiosity</span
+                ></a
+              >
+            </div>
+            <div class="image-container">
+              <a href=""
+                ><img
+                  src="./images/desktop/image-fisheye.jpg"
+                  alt=""
+                  class="gallery-image"
+                /><span class="uppercase image-text"
+                  >Make It<br />Fisheye</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class=" border-magenta">Footer</div> -->
+    </div>
+
+    <!--     Our creations See all Deep
     earth Night arcade Soccer team VR The grid From up above VR Pocket borealis
     The curiosity Make it fisheye About Careers Events Products Support © 2021
     Loopstudios. All rights reserved. -->
