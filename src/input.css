@@ -138,3 +138,28 @@ body {
   line-height: 100%;
   letter-spacing: 0;
 }
+
+.footer-nav {
+  color: var(--white);
+  background-color: var(--black);
+  font-family: var(--alata);
+  font-weight: var(--alata-fw);
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+/* .footer-copyright,
+.footer-icons {
+  border: 1px solid magenta;
+} */
+
+.footer-icons {
+  width: 60%;
+  margin-left: 100px;
+}
+
+.footer-text {
+  color: var(--white);
+  opacity: 50%;
+}
